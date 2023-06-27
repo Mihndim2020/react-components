@@ -5,19 +5,19 @@ function App() {
     <div className="App">
         <h1>Welcome to React Components</h1>
         <div>
-         <Button>Click me please</Button>
+         <Button primary rounded outline>Click me please</Button>
         </div>
         <div>
-         <Button>Buy now !</Button>
+         <Button secondary>Buy now !</Button>
         </div>
         <div>
-         <Button>See Deal !</Button>
+         <Button success>See Deal !</Button>
         </div>
         <div>
-         <Button>Hide Adds </Button>
+         <Button warning>Hide Adds </Button>
         </div>
         <div>
-         <Button>Check out ! </Button>
+         <Button danger rounded>Check out ! </Button>
         </div>
     </div>
   );
