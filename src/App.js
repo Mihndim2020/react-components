@@ -9,7 +9,7 @@ function App() {
     <div className="App">
         <h1>Welcome to React Components</h1>
         <div>
-         <Button primary rounded outline onClick={handleClick}> <GoBell /> Click me please</Button>
+         <Button primary rounded outline className="mb-5" onClick={handleClick}> <GoBell /> Click me please</Button>
         </div>
         <div>
          <Button secondary>Buy now !</Button>
