@@ -17,7 +17,10 @@ function App() {
     {label: 'Blue', value: 'blue'}
   ]
   return (
-    <div><Dropdown selection={selection} onSelect={handleSelect} options={options}/></div>
+    <div className="flex">
+      <Dropdown value={selection} onChange={handleSelect} options={options}/>
+      <Dropdown value={selection} onChange={handleSelect} options={options}/>
+      </div>
   )
 }
 
